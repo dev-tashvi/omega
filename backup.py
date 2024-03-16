@@ -17,7 +17,7 @@ def scroll_to_load_more(parent_div):
     time.sleep(3)  # Wait for some time to let new content load
 
 
-while len(driver.find_elements(By.XPATH, "//div[contains(@class, 'qBF1Pd') and contains(@class, 'fontHeadlineSmall')]")) < 20:
+while len(driver.find_elements(By.XPATH, "//div[contains(@class, 'qBF1Pd') and contains(@class, 'fontHeadlineSmall')]")) < 50:
     parent_div = driver.find_element(By.XPATH, "//div[contains(@class, 'm6QErb') and contains(@class, 'DxyBCb') and contains(@class, 'kA9KIf') and contains(@class, 'dS8AEf') and contains(@class, 'ecceSd')]")
     scroll_to_load_more(parent_div)
 
