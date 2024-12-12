@@ -7,7 +7,6 @@ import winreg
 
 company_name = []
 
-# below code is wriiten from chat gpr in batch file then i converted it to py 🙂
 def get_default_browser():
     try:
         # Open the Windows Registry key for HTTP associations
